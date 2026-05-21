@@ -25,7 +25,7 @@ of OSS audit tools. Both readings are intended.
 | Domain | Repository | What it audits | Current status |
 |---|---|---|---|
 | Text | https://github.com/Yuu6798/ugh-audit-core | AI Q&A response semantic honesty (PoR / ΔE / grv metrics over a declared response intent) | Phase 8 shipped; HA63 (n=63) validation complete; deterministic CLI + REST API + MCP server all shipped |
-| Code | https://github.com/Yuu6798/semantic-ci-code | Python PR intent drift between a declared `target.yaml` and the observed code state extracted from the change | Active development; 8 CLI subcommands; discipline tests CI-enforced; no tagged release yet |
+| Code | https://github.com/Yuu6798/semantic-ci-code | Python PR intent drift between a declared `target.yaml` and the observed code state extracted from the change | ABCD-A/B complete; 10 CLI subcommands; discipline tests CI-enforced; no tagged release yet |
 | Music | https://github.com/Yuu6798/ugh-prompt-engine | Audio quality drift between a Target SVP and an observed RPE bundle extracted from a WAV/MP3 | Proof of concept; 2 tags; ~217 commits; explicitly self-acknowledged as not yet production-validated (validation dataset pending) |
 | Image + Video | https://github.com/Yuu6798/svp-video-pipeline | Image and short-video generation drift via an SVP 5-layer schema audit with a structured repair loop | Experimental; ~121 commits; ~$1.60 per standard run; catches C-group risks such as reversed hands, thin linear objects, and soft-body deformation |
 
